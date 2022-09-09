@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1abc9c !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.divListado {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+
+.divTitleBuscar {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: xxx-large;
+  color: white;
+  font-weight: bolder;
+}
+
+.divFiltrar {
+  display: flex;
+  margin: 3rem;
+  margin-bottom: 0px;
+}
+
+.divFiltrar button {
+  margin: 2rem;
+}
+
+.divFiltrar input {
+  margin: 2rem;
+  height: 50px;
+  width: 70% !important;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.card {
+  margin: 3rem;
+  background-color: lightskyblue !important;
+  height: fit-content;
+}
+
+.divCardTitle {
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: x-large;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: white;
 }
